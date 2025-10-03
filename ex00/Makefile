@@ -6,11 +6,11 @@
 #    By: lantonio <lantonio@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/09/01 09:09:42 by lantonio          #+#    #+#              #
-#    Updated: 2025/10/03 09:28:30 by lantonio         ###   ########.fr        #
+#    Updated: 2025/10/03 09:56:31 by lantonio         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME		= bureaucrat
+NAME		= bureaucrat.out
 
 HEADERS		= ./includes/Bureaucrat.hpp
 
