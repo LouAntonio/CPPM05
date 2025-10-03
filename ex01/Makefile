@@ -6,11 +6,11 @@
 #    By: lantonio <lantonio@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/09/01 09:09:42 by lantonio          #+#    #+#              #
-#    Updated: 2025/09/02 11:07:38 by lantonio         ###   ########.fr        #
+#    Updated: 2025/10/03 09:56:58 by lantonio         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME		= forms
+NAME		= forms.out
 
 SRCS	=	./src/main.cpp \
 			./src/Bureaucrat.cpp \

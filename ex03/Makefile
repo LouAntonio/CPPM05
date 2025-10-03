@@ -6,11 +6,11 @@
 #    By: lantonio <lantonio@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/09/01 09:09:42 by lantonio          #+#    #+#              #
-#    Updated: 2025/09/18 09:08:35 by lantonio         ###   ########.fr        #
+#    Updated: 2025/10/03 09:57:07 by lantonio         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME		= intern
+NAME		= intern.out
 
 SRCS	=	./src/main.cpp \
 			./src/AForm.cpp \
