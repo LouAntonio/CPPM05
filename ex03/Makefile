@@ -6,19 +6,26 @@
 #    By: lantonio <lantonio@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/09/01 09:09:42 by lantonio          #+#    #+#              #
-#    Updated: 2025/10/03 09:57:07 by lantonio         ###   ########.fr        #
+#    Updated: 2025/10/03 10:12:14 by lantonio         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME		= intern.out
 
-SRCS	=	./src/main.cpp \
-			./src/AForm.cpp \
-			./src/Intern.cpp \
-			./src/Bureaucrat.cpp \
-			./src/RobotomyRequestForm.cpp \
-			./src/ShrubberyCreationForm.cpp \
-			./src/PresidentialPardonForm.cpp \
+HEADERS		= ./includes/AForm.hpp \
+				./includes/Intern.hpp \
+				./includes/Bureaucrat.hpp \
+				./includes/RobotomyRequestForm.hpp \
+				./includes/ShrubberyCreationForm.hpp \
+				./includes/PresidentialPardonForm.hpp \
+
+SRCS		= ./src/main.cpp \
+				./src/AForm.cpp \
+				./src/Intern.cpp \
+				./src/Bureaucrat.cpp \
+				./src/RobotomyRequestForm.cpp \
+				./src/ShrubberyCreationForm.cpp \
+				./src/PresidentialPardonForm.cpp \
 
 CXX			= c++
 
@@ -30,7 +37,7 @@ $(NAME): $(OBJS)
 	@$(CXX) $(FLAGS) $(OBJS) -o $(NAME)
 	@echo "\033[1;32mSUCCESS!\033[0m"
 
-%.o:%.cpp
+%.o:%.cpp $(HEADERS)
 	@$(CXX) $(FLAGS) -c $< -o $@
 
 all: $(NAME)
